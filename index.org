@@ -23,3 +23,8 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:
 
+* [[./pages/DocumentedDesign.html][Guidelines for Documented Design]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+

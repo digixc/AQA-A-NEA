@@ -1,0 +1,11 @@
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+
+* A level NEA project ideas
+ 
+1. Simulations of water run off in a landscape
+2. SuDoKu generator and solver with levels of difficulties
+3. School time table generator
+4. 

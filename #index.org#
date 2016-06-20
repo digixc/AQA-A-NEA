@@ -1,0 +1,20 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="pages/css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: AQA AS Computer Science
+#+AUTHOR: Xiaohui Ellis
+
+#+BEGIN_HTML
+
+#+END_HTML
+
+* [[http://www.aqa.org.uk/resources/ict-and-computer-science/as-and-a-level/computer-science-7516-7517/assess/nea-guidance][AQA CS NEA General Guidelines]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+* [[./pages/doc/AQA-CS-NEA-AssessmentCriteria.pdf][NEA Detailed Guidelines and Marking Criteria]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+

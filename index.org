@@ -18,3 +18,8 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:
 
+* [[./pages/Analysis.html][Guidelines for Analysis]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:
+

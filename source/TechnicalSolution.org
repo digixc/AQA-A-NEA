@@ -125,17 +125,17 @@ You should present your work in a way that will enable a third party to discern 
 |          1 |        1-9 | The techniques used demonstrate a level of technical skill equivalent to those listed in Group C in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency. |
 
   
-*** Example Technical Skills
+*** Table 1: Example Technical Skills
 
 | <10>       | <10>       | <30>                           |
 | Group      | Model (including data model/structure) | Algorithms                     |
 |------------+------------+--------------------------------|
-| A          | Complex data model in database (eg several interlinked tables). Hash tables, lists, stacks, queues, graphs, trees or structures of equivalent standard. Files(s) organised for direct access. Complex scientific/mathematical/robotics/ control/business model. Complex user-defined use of object- orientated programming (OOP) model, eg classes, inheritance, composition, polymorphism, interfaces. Complex client-server modelta model in database (eg several interlinked tables) | Cross-table parameterised SQL Aggregate SQL functions User/CASE-generated DDL script Graph/Tree Traversal.List operations. Linked list maintenance Stack/Queue Operations Hashing. Advanced matrix operations Recursive algorithms. Complex user-defined algorithms (eg optimisation,minimisation,scheduling, pattern matching) or equivalent difficulty. Mergesort or similarly efficient sort. Dynamic generation of objects based on complex user-defined use of OOP model. Server-side scripting using request and response objects and server-side extensions for a complex client-server model. Calling parameterised Web service APIs and parsing JSON/XML to service a complex client-server model |
+| A          | Complex data model in database (eg several interlinked tables). Hash tables, lists, stacks, queues, graphs, trees or structures of equivalent standard.  Files(s) organised for direct access. Complex scientific/mathematical/robotics/ control/business model. Complex user-defined use of object- orientated programming (OOP) model, eg classes, inheritance, composition, polymorphism, interfaces. Complex client-server modelta model in database (eg several interlinked tables) | Cross-table parameterised SQL.  Aggregate SQL functions.  User/CASE-generated DDL script.  Graph/Tree Traversal. List operations. Linked list maintenance Stack/Queue Operations Hashing. Advanced matrix operations Recursive algorithms. Complex user-defined algorithms (eg optimisation,minimisation,scheduling, pattern matching) or equivalent difficulty. Mergesort or similarly efficient sort. Dynamic generation of objects based on complex user-defined use of OOP model. Server-side scripting using request and response objects and server-side extensions for a complex client-server model. Calling parameterised Web service APIs and parsing JSON/XML to service a complex client-server model |
 |------------+------------+--------------------------------|
 | B          | Simple data model in database (eg two or three interlinked tables). Multi-dimensional arrays Dictionaries. Records. Text files. File(s) organised for sequential access. Simple scientific/mathematical /robotics/ control/business model. Simple OOP model Simple client-server model | Single table or non-parameterised SQL.  Bubble sort Binary search. Writing and reading from files. Simple user defined algorithms (eg a range of mathematical/statistical calculations). Generation of objects based on simple OOP model. Server-side scripting using request and response objects and server-side extensions for a simple client-server model. Calling Web service APIs and parsing JSON/ XML to service a simple client-server modelriate and demonstrate a level of technical skill equivalent to those listed in Group B in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency. |
 | C          | Single-dimensional arrays. Appropriate choice of simple data types Single table database | Linear search. Simple mathematical calculations (eg average). Non-SQL table access |
 
-*** Coding styles
+*** Table 2: Coding styles
 
 | <10>       | <40>                                     |
 | Style      | Characteristics                          |
@@ -147,7 +147,7 @@ You should present your work in a way that will enable a third party to discern 
 
   
 
-* Your programming listings
+* Present Your Programming Listings
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      

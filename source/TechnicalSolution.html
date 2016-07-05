@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>AQA A NEA Technical Solution Guideline</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">AQA A NEA Technical Solution Guideline</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Expectations and Marking Scheme</a>
+<ul>
+<li><a href="#sec-1-1">Expectations</a></li>
+<li><a href="#sec-1-2">The Marking Scheme</a>
+<ul>
+<li><a href="#sec-1-2-1">Table 1: Example Technical Skills</a></li>
+<li><a href="#sec-1-2-2">Table 2: Coding styles</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Present Your Programming Listings</a>
+<ul>
+<li><a href="#sec-2-1">Structure</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Expectations and Marking Scheme</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 learn">
+<h3 id="sec-1-1">Expectations</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+
+<ul class="org-ul"><li><a id="sec-1-1-0-1" name="sec-1-1-0-1"></a>You are expected to:<br  /><div class="outline-text-5" id="text-1-1-0-1">
+<p>
+Provide program listing(s) that demostrate your <code>technical skill</code>. The program listing(s) should be appropriately annotated and self-documenting (an approach that uses meaningful identifiers, with well structured code that minimises instances where program comments are necessary).
+You should present your work in a way that will enable a third party to discern the quality and purpose of the coding. This could take the form of:
+</p>
+<ul class="org-ul">
+<li>an overview guide which amongst other things includes the names of entities such as executables, data filenames/urls, database names, pathnames so that a third party can, if they so desire, run the solution/investigation
+</li>
+<li>explanations of particularly difficult-to-understand code sections; a careful division of the presentation of the code listing into appropriately labelled sections to make navigation as easy as possible for a third party reading the code listing.  To achieve this, to an extent, is linked to the skill in applying a structured approach during the course of developing the solution or carrying out the investigation.
+</li>
+</ul>
+</div>
+</li></ul>
+</div>
+
+<div id="outline-container-sec-1-2" class="outline-3 learn">
+<h3 id="sec-1-2">The Marking Scheme</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+
+<ul class="org-ul"><li><a id="sec-1-2-0-1" name="sec-1-2-0-1"></a>Completeness of solution (15 marks)<br  /><div class="outline-text-5" id="text-1-2-0-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">level</th>
+<th scope="col" class="right">Mark Range</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">3</td>
+<td class="right">11-15</td>
+<td class="left">A system that meets almost all of the requirements of a solution/an investigation (ignoring any requirements that go beyond the demandsof A-level).</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="right">2</td>
+<td class="right">6-10</td>
+<td class="left">A system that achieves many of the requirements but not all. The marks at the top end of the band are for systems that include some of the most important requirements.</td>
+</tr>
+
+<tr>
+<td class="right">1</td>
+<td class="right">1-5</td>
+<td class="left">A system that tackles some aspects of the problem or investigation.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+
+
+<li><a id="sec-1-2-0-2" name="sec-1-2-0-2"></a>Techniques Used (27 marks)<br  /><div class="outline-text-5" id="text-1-2-0-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">level</th>
+<th scope="col" class="right">Mark Range</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="right">3</td>
+<td class="right">19-27</td>
+<td class="left">The techniques used are appropriate and demonstrate a level of technical skill equivalent to those listed in Group A in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency.ted design for a real problem, that describes how all or almost all of the key aspects of the solution/investigation are to be structured/are structured.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="right">2</td>
+<td class="right">10-18</td>
+<td class="left">The techniques used are appropriate and demonstrate a level of technical skill equivalent to those listed in Group B in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency.</td>
+</tr>
+
+<tr>
+<td class="right">1</td>
+<td class="right">1-9</td>
+<td class="left">The techniques used demonstrate a level of technical skill equivalent to those listed in Group C in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+
+
+<div id="outline-container-sec-1-2-1" class="outline-4">
+<h4 id="sec-1-2-1">Table 1: Example Technical Skills</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Group</th>
+<th scope="col" class="left">Model (including data model/structure)</th>
+<th scope="col" class="left">Algorithms</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">A</td>
+<td class="left">Complex data model in database (eg several interlinked tables). Hash tables, lists, stacks, queues, graphs, trees or structures of equivalent standard.  Files(s) organised for direct access. Complex scientific/mathematical/robotics/ control/business model. Complex user-defined use of object- orientated programming (OOP) model, eg classes, inheritance, composition, polymorphism, interfaces. Complex client-server modelta model in database (eg several interlinked tables)</td>
+<td class="left">Cross-table parameterised SQL.  Aggregate SQL functions.  User/CASE-generated DDL script.  Graph/Tree Traversal. List operations. Linked list maintenance Stack/Queue Operations Hashing. Advanced matrix operations Recursive algorithms. Complex user-defined algorithms (eg optimisation,minimisation,scheduling, pattern matching) or equivalent difficulty. Mergesort or similarly efficient sort. Dynamic generation of objects based on complex user-defined use of OOP model. Server-side scripting using request and response objects and server-side extensions for a complex client-server model. Calling parameterised Web service APIs and parsing JSON/XML to service a complex client-server model</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">B</td>
+<td class="left">Simple data model in database (eg two or three interlinked tables). Multi-dimensional arrays Dictionaries. Records. Text files. File(s) organised for sequential access. Simple scientific/mathematical <i>robotics</i> control/business model. Simple OOP model Simple client-server model</td>
+<td class="left">Single table or non-parameterised SQL.  Bubble sort Binary search. Writing and reading from files. Simple user defined algorithms (eg a range of mathematical/statistical calculations). Generation of objects based on simple OOP model. Server-side scripting using request and response objects and server-side extensions for a simple client-server model. Calling Web service APIs and parsing JSON/ XML to service a simple client-server modelriate and demonstrate a level of technical skill equivalent to those listed in Group B in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency.</td>
+</tr>
+
+<tr>
+<td class="left">C</td>
+<td class="left">Single-dimensional arrays. Appropriate choice of simple data types Single table database</td>
+<td class="left">Linear search. Simple mathematical calculations (eg average). Non-SQL table access</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-sec-1-2-2" class="outline-4">
+<h4 id="sec-1-2-2">Table 2: Coding styles</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Style</th>
+<th scope="col" class="left">Characteristics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Excellent</td>
+<td class="left">Modules (subroutines) with appropriate interfaces. Loosely coupled modules (subroutines) – module code interacts with other parts of the program through its interface only. Cohesive modules (subroutines) – module code does just one thing. Modules(collections of subroutines) – subroutines with common purpose grouped. Defensive programming. Good exception handling</td>
+</tr>
+
+<tr>
+<td class="left">Good</td>
+<td class="left">Well-designed user interface. Modularisation of code Good use of local variables Minimal use of global variables Managed casting of types Use of constants. Appropriate indentation. Self-documenting code. Consistent style throughout. File paths parameterised</td>
+</tr>
+
+<tr>
+<td class="left">Basic</td>
+<td class="left">Meaningful identifier names. Annotation used effectively where required</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-sec-2" class="outline-2 activity">
+<h2 id="sec-2"><span class="section-number-2">2</span> Present Your Programming Listings</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-sec-2-1" class="outline-3 document">
+<h3 id="sec-2-1">Structure</h3>
+<div class="outline-text-3" id="text-2-1">
+
+<ul class="org-ul">
+<li>You should present your work in a way that will enable a third party to discern the quality and purpose of the coding. This could take the form of:
+
+<ul class="org-ul">
+<li>an overview guide which amongst other things includes the names of entities such as executables, data filenames/urls, database names, pathnames so that a third party can, if they so desire, run the solution/investigation
+</li>
+<li>explanations of particularly difficult-to-understand code sections; a careful division of the presentation of the code listing into appropriately labelled sections to make navigation as easy as possible for a third party reading the code listing.  To achieve this, to an extent, is linked to the skill in applying a structured approach during the course of developing the solution or carrying out the investigation.
+</li>
+</ul>
+</li>
+
+<li>Program listing(s) that demostrate your <code>technical skill</code>.
+</li>
+<li>Use syntax highlight software (free online) that will allow your code to be nicely formatted and colour coded.
+</li>
+<li>Make sure your code is easy to read by using appropriate font and font size.
+</li>
+<li>Organise your code so that each separate program, data file, database names, path to file etc are titled and a clear description is under each title and before the actual listing.
+</li>
+<li>The program listing(s) should be appropriately annotated and self-documenting.
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

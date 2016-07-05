@@ -28,3 +28,7 @@
 :HTML_CONTAINER_CLASS: link-heading
 :END:
 
+* [[./pages/TechnicalSolution.html][Guidelines for Technical Solution]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:

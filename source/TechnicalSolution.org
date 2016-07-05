@@ -1,0 +1,168 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: AQA A NEA Technical Solution Guideline
+#+AUTHOR: Xiaohui Ellis
+
+#+BEGIN_HTML
+
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Analysis Guidelines
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+
+| Level | Mark Range | Descriptions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     3 |        7-9 | Fully or nearly fully scoped analysis of a real problem, presented in a way that a third party can understand. Requirements fully documented in a set of measurable and appropriate specific objectives, covering all required functionality of the solution or areas of investigation. Requirements arrived at by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages.                                                          |
+|     2 |        4-6 | Well scoped analysis (but with some omissions that are not serious enough to undermine later design) of a real problem. Most, but not all, requirements documented in a set of, in the main, measurable and appropriate specific objectives that cover most of the required functionality of a solution or areas of investigation. Requirements arrived at, in the main, by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages. |
+|     1 |        1-3 | Partly scoped analysis of a problem. Requirements partly documented in a set of specific objectives, not all of which are measurable or appropriate for developing a solution. The required functionality or areas of investigation are only partly addressed. Some attempt to consider, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem partly modelled and of some use in subsequent stages                                                                                                          |
+
+  
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Expectations and Marking Scheme
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Expectations
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+**** You are expected to:
+
+Provide program listing(s) that demostrate your =technical skill=. The program listing(s) should be appropriately annotated and self-documenting (an approach that uses meaningful identifiers, with well structured code that minimises instances where program comments are necessary).
+You should present your work in a way that will enable a third party to discern the quality and purpose of the coding. This could take the form of:
++ an overview guide which amongst other things includes the names of entities such as executables, data filenames/urls, database names, pathnames so that a third party can, if they so desire, run the solution/investigation
++ explanations of particularly difficult-to-understand code sections; a careful division of the presentation of the code listing into appropriately labelled sections to make navigation as easy as possible for a third party reading the code listing.  To achieve this, to an extent, is linked to the skill in applying a structured approach during the course of developing the solution or carrying out the investigation.
+
+** The Marking Scheme
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+**** Completeness of solution (15 marks)
+
+|       <10> |       <10> | <30>                           |
+|      level | Mark Range | Description                    |
+|------------+------------+--------------------------------|
+|          3 |      11-15 | A system that meets almost all of the requirements of a solution/an investigation (ignoring any requirements that go beyond the demandsof A-level). |
+|------------+------------+--------------------------------|
+|          2 |       6-10 | A system that achieves many of the requirements but not all. The marks at the top end of the band are for systems that include some of the most important requirements. |
+|          1 |        1-5 | A system that tackles some aspects of the problem or investigation. |
+
+  
+
+**** Techniques Used (27 marks)
+
+|       <10> |       <10> | <30>                           |
+|      level | Mark Range | Description                    |
+|------------+------------+--------------------------------|
+|          3 |      19-27 | The techniques used are appropriate and demonstrate a level of technical skill equivalent to those listed in Group A in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency.ted design for a real problem, that describes how all or almost all of the key aspects of the solution/investigation are to be structured/are structured. |
+|------------+------------+--------------------------------|
+|          2 |      10-18 | The techniques used are appropriate and demonstrate a level of technical skill equivalent to those listed in Group B in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency. |
+|          1 |        1-9 | The techniques used demonstrate a level of technical skill equivalent to those listed in Group C in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency. |
+
+  
+*** Example Technical Skills
+
+| <10>       | <10>       | <30>                           |
+| Group      | Model (including data model/structure) | Algorithms                     |
+|------------+------------+--------------------------------|
+| A          | Complex data model in database (eg several interlinked tables). Hash tables, lists, stacks, queues, graphs, trees or structures of equivalent standard. Files(s) organised for direct access. Complex scientific/mathematical/robotics/ control/business model. Complex user-defined use of object- orientated programming (OOP) model, eg classes, inheritance, composition, polymorphism, interfaces. Complex client-server modelta model in database (eg several interlinked tables) | Cross-table parameterised SQL Aggregate SQL functions User/CASE-generated DDL script Graph/Tree Traversal.List operations. Linked list maintenance Stack/Queue Operations Hashing. Advanced matrix operations Recursive algorithms. Complex user-defined algorithms (eg optimisation,minimisation,scheduling, pattern matching) or equivalent difficulty. Mergesort or similarly efficient sort. Dynamic generation of objects based on complex user-defined use of OOP model. Server-side scripting using request and response objects and server-side extensions for a complex client-server model. Calling parameterised Web service APIs and parsing JSON/XML to service a complex client-server model |
+|------------+------------+--------------------------------|
+| B          | Simple data model in database (eg two or three interlinked tables). Multi-dimensional arrays Dictionaries. Records. Text files. File(s) organised for sequential access. Simple scientific/mathematical /robotics/ control/business model. Simple OOP model Simple client-server model | Single table or non-parameterised SQL.  Bubble sort Binary search. Writing and reading from files. Simple user defined algorithms (eg a range of mathematical/statistical calculations). Generation of objects based on simple OOP model. Server-side scripting using request and response objects and server-side extensions for a simple client-server model. Calling Web service APIs and parsing JSON/ XML to service a simple client-server modelriate and demonstrate a level of technical skill equivalent to those listed in Group B in Table 1. Program(s) demonstrate(s) that the skill required for this level has been applied sufficiently to demonstrate proficiency. |
+| C          | Single-dimensional arrays. Appropriate choice of simple data types Single table database | Linear search. Simple mathematical calculations (eg average). Non-SQL table access |
+
+*** Coding styles
+
+| <10>       | <40>                                     |
+| Style      | Characteristics                          |
+|------------+------------------------------------------|
+| Excellent  | Modules (subroutines) with appropriate interfaces. Loosely coupled modules (subroutines) – module code interacts with other parts of the program through its interface only. Cohesive modules (subroutines) – module code does just one thing. Modules(collections of subroutines) – subroutines with common purpose grouped. Defensive programming. Good exception handling |
+| Good       | Well-designed user interface. Modularisation of code Good use of local variables Minimal use of global variables Managed casting of types Use of constants. Appropriate indentation. Self-documenting code. Consistent style throughout. File paths parameterised |
+| Basic      | Meaningful identifier names. Annotation used effectively where required |
+
+
+  
+
+* Your programming listings
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:      
+** Structure
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
++ You should present your work in a way that will enable a third party to discern the quality and purpose of the coding. This could take the form of:
+
+  + an overview guide which amongst other things includes the names of entities such as executables, data filenames/urls, database names, pathnames so that a third party can, if they so desire, run the solution/investigation
+  + explanations of particularly difficult-to-understand code sections; a careful division of the presentation of the code listing into appropriately labelled sections to make navigation as easy as possible for a third party reading the code listing.  To achieve this, to an extent, is linked to the skill in applying a structured approach during the course of developing the solution or carrying out the investigation.
+
++ Program listing(s) that demostrate your =technical skill=.
++ Use syntax highlight software (free online) that will allow your code to be nicely formatted and colour coded.
++ Make sure your code is easy to read by using appropriate font and font size.
++ Organise your code so that each separate program, data file, database names, path to file etc are titled and a clear description is under each title and before the actual listing.
++ The program listing(s) should be appropriately annotated and self-documenting.

@@ -1,0 +1,159 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: AQA A NEA Analysis Guideline
+#+AUTHOR: Xiaohui Ellis
+
+#+BEGIN_HTML
+
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Analysis Guidelines
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+
+| Level | Mark Range | Descriptions                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|-------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     3 |        7-9 | Fully or nearly fully scoped analysis of a real problem, presented in a way that a third party can understand. Requirements fully documented in a set of measurable and appropriate specific objectives, covering all required functionality of the solution or areas of investigation. Requirements arrived at by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages.                                                          |
+|     2 |        4-6 | Well scoped analysis (but with some omissions that are not serious enough to undermine later design) of a real problem. Most, but not all, requirements documented in a set of, in the main, measurable and appropriate specific objectives that cover most of the required functionality of a solution or areas of investigation. Requirements arrived at, in the main, by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages. |
+|     1 |        1-3 | Partly scoped analysis of a problem. Requirements partly documented in a set of specific objectives, not all of which are measurable or appropriate for developing a solution. The required functionality or areas of investigation are only partly addressed. Some attempt to consider, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem partly modelled and of some use in subsequent stages                                                                                                          |
+
+  
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Expectations and Marking Scheme
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Warning!!!
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+This is the very first section.  It is =very important= as it indicates where you are headed. It gives the examiners an overview on how you solution works, how complex it is, and how well =you= understand the problem.  
+
+** Expectations
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+**** =You are expected to=:
++ produce a clear statement that describes the problem area and specific problem that is being solved/investigated
++ outline how they researched the problem
++ state for whom the problem is being solved/investigated
++ provide background in sufficient detail for a third party to understand the problem being solved/ investigated
++ produce a numbered list of measurable, "appropriate" specific objectives, covering all required functionality of the solution or areas of investigation (Appropriate means that the specific objectives are single purpose and at a level of detail that is without ambiguity)
++ report any modelling of the problem that will inform the Design stage, for example a graph/network model of Facebook connections or an E-R model.
+
+**** =A fully scoped analysis is one that has=:
++ researched the problem thoroughly
++ has clearly defined the problem being solved/investigated
++ omitted nothing that is relevant to subsequent stages
++ statements of objectives which clearly and unambiguously identify the scope of the project
++ modelled the problem for the Design stage where this is possible and necessary.
+
+** The Marking Scheme
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+
+|       <10> |       <10> | <30>                           |
+|      level | Mark Range | Description                    |
+|------------+------------+--------------------------------|
+|          3 |        7-9 | Fully or nearly fully scoped analysis of a real problem, presented in a way that a third party can understand. Requirements fully documented in a set of measurable and appropriate specific objectives, covering all required functionality of the solution or areas of investigation. Requirements arrived at by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages. |
+|------------+------------+--------------------------------|
+|          2 |        4-6 | Well scoped analysis (but with some omissions that are not serious enough to undermine later design) of a real problem. Most, but not all, requirements documented in a set of, in the main, measurable and appropriate specific objectives that cover most of the required functionality of a solution or areas of investigation. Requirements arrived at, in the main, by considering, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem sufficiently well modelled to be of use in subsequent stages. |
+|          1 |        1-3 | Partly scoped analysis of a problem. Requirements partly documented in a set of specific objectives, not all of which are measurable or appropriate for developing a solution. The required functionality or areas of investigation are only partly addressed. Some attempt to consider, through dialogue, the needs of the intended users of the system, or recipients of the outcomes for investigative projects. Problem partly modelled and of some use in subsequent stages. |
+  
+* Write Up Your Analysis
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Structure and content
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+Organise and write your Analysis section using the expectations and marking criteria above. The expectations ask you to include the following five key areas:
+1. Problem definition OR Overview OR Broad Aims:
+   + what is your solution intended to do?
+   + How does it work and on what platform?
+   + what is the target audience? 
+   + what it intends to address?
+2. Background: 
+   + what makes you choose this problem?
+3. Give evidence that you have done your research and analysis.
+   + Create a log of activities: research, interview summaries and what you have learned from those activities.
+     + Are there any existing similar problem?
+     + What are the existing solutions can and cannot do and what your solution intends to address those gaps?
+     + What are your target audience survey/interview results?
+     + What justifications do you have for your solution
+     + Research and investigation logs, web links etc?
+4. Objectives:(very important, this is where the examiner gets a sense of complexity and your solution will be measured against)
+   + a list/set of milestones to achieve a working solution. For example: 1. Create a database to permanently store user details, product details and suppliers' details. 2. Create a user interface so that a manager of the store can log on to manage the stock. 3. Create mechanism so that when a particular product numbers reach a limit, it automatically triggers email to a specified stock manager.
+5. Model (E-R diagram)
+   
+   + Entity relationship or data flow diagram or flow chart to show how data will be passed among different components of the intended system, or how different parts of the system will be interacting with each other.
+   + A network graph of the interconnected components if any.
+6. Organise your writing based on the expectations. You can download a copy of the Analysis template [[file:doc/AnalysisTemplate.docx][here]].

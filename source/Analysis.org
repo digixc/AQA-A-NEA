@@ -129,21 +129,24 @@
 :END:
 
 Organise and write your Analysis section using the expectations and marking criteria above. The expectations ask you to include the following five key areas:
-1. Problem definition:
-   + what is your problem intended to do?,
+1. Problem definition OR Overview OR Broad Aims:
+   + what is your solution intended to do?
+   + How does it work and on what platform?
    + what is the target audience? 
    + what it intends to address?
 2. Background: 
    + what makes you choose this problem?
-3. Are there any existing similar problem?
-   + What are the existing solutions can and cannot do and what your solution intends to address those gaps?
-   + What are your target audience survey/interview results?
-   + What justifications do you have for your solution
-   + Research and Investigation: ?
-4. Objectives:
-   + a list/set of milestones to achieve a working solution. For example: 1. Create a database to permanently store user details, product details and suppliers' details. 2. Create a user interface so that a manager of the store can log on to manage the stock. 3. Create mechanism so that when a particular product numbers reach a limit, it automatically triggers email to a specified stock 
+3. Give evidence that you have done your research and analysis.
+   + Create a log of activities: research, interview summaries and what you have learned from those activities.
+     + Are there any existing similar problem?
+     + What are the existing solutions can and cannot do and what your solution intends to address those gaps?
+     + What are your target audience survey/interview results?
+     + What justifications do you have for your solution
+     + Research and investigation logs, web links etc?
+4. Objectives:(very important, this is where the examiner gets a sense of complexity and your solution will be measured against)
+   + a list/set of milestones to achieve a working solution. For example: 1. Create a database to permanently store user details, product details and suppliers' details. 2. Create a user interface so that a manager of the store can log on to manage the stock. 3. Create mechanism so that when a particular product numbers reach a limit, it automatically triggers email to a specified stock manager.
 5. Model (E-R diagram)
    
-   + Entity relationship or data flow diagram to show how data will be passed among different components of the intended system.
+   + Entity relationship or data flow diagram or flow chart to show how data will be passed among different components of the intended system, or how different parts of the system will be interacting with each other.
    + A network graph of the interconnected components if any.
 6. Organise your writing based on the expectations. You can download a copy of the Analysis template [[file:doc/AnalysisTemplate.docx][here]].

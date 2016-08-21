@@ -124,6 +124,7 @@
 :HTML_CONTAINER_CLASS: document
 :END:
 
+[[./img/design.png]]
 Try to organise your writing using the expectations above. The expectations ask you to include the following key areas:
 1. =Packages and framework=: Describe and explain the purpose of any numerical and scientific package libraries, data visualisation package library, particular relational database and/or web design framework will be used.
 2. =Files, Data Structures, Methods of Access=: Design any data structures, files,relational database(fields, tables, data types, validation rules, and table relationships) with their purpose and access methods explained.

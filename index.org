@@ -13,7 +13,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[http://www.aqa.org.uk/resources/ict-and-computer-science/as-and-a-level/computer-science-7516-7517/assess/nea-guidance][AQA CS NEA General Guidelines]]
+* [[http://filestore.aqa.org.uk/resources/computing/AQA-7517-NEA-GUIDE.PDF][AQA CS NEA General Guidelines]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:

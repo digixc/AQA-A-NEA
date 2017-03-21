@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:Xiaohui Ellis num:1 creator:nil timestamp:nil 
-#+TITLE: AQA A NEA Testing Guideline
+#+TITLE: AQA A NEA Evaluation Guideline
 #+AUTHOR: Xiaohui Ellis
 
 #+BEGIN_HTML
@@ -91,22 +91,22 @@
 :END:
 
 
-- The requirement is to provide a representative sample of the testing that has happened across the project and not record and evidence every individual test. 
-- Testing may occur during different parts of the project and when this has happened it is important that a student clearly reflects this in their project.  
-- As part of the testing section it may be appropriate to contain a table of tests performed at different stages of the project and a link to any evidence of this.
-- It would also be appropriate for a student to perform more traditional testing of the solution at the end of coding where the robustness and completeness of the solution are tested.
+- see marking scheme below.
+- always aim at the highest level.
+- please pay attention to the independent feedback point and think about how you are going to obtain that, i.e. peer review? target users review?
 
 ** The Marking Scheme
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
 
-**** Testing (8 marks)
-[[./img/AQA-NEA-Testing_MS.png]]
+**** Evaluation (4 marks)
+
+[[./img/evaluation.png]]
   
 
 
-* Present Your Testing Evidence
+* Present Your Evaluation
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:      
@@ -115,12 +115,7 @@
 :HTML_CONTAINER_CLASS: document
 :END:
 
-+ A table of content of your tests organised by areas of testings. For example, UI testing, Data validation testing, Network connection testing, Two player mode testing etc.
-+ Make a title/heading for each testing areas. You may have multiple tests under each. 
-+ For those individual tests, specify clearly:
-  + Test scope
-  + Test data if appropriate
-  + Expected result
-  + Actual result
-  + Evidence of test in the form of screenshots
-  + Any improvement after the test if not as expected
++ Organise your write up in three sub-sections:
+  1. evaluate aganist the requirements/objectives - how well the outcome meet the requirements.
+  2. future improvement/different approaches if were to re-visit the same problem with reasons.
+  3. detailed and realistic independent review/critique of the outcome.

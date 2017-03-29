@@ -36,3 +36,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
+* [[./pages/Eval.html][Guidelines for Evaluation]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: link-heading
+:END:

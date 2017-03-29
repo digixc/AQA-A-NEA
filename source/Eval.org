@@ -116,6 +116,6 @@
 :END:
 
 + Organise your write up in three sub-sections:
-  1. evaluate aganist the requirements/objectives - how well the outcome meet the requirements.
+  1. evaluate aganist the requirements/objectives - how well the outcome meet the requirements. Referring back to the tests you have done that show you have met certain requirements/objectives.
   2. future improvement/different approaches if were to re-visit the same problem with reasons.
-  3. detailed and realistic independent review/critique of the outcome.
+  3. detailed and realistic independent review/critique of the outcome. Get some feedback from your intended users. This can be a survey, interview summaries.

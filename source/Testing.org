@@ -95,6 +95,13 @@
 - Testing may occur during different parts of the project and when this has happened it is important that a student clearly reflects this in their project.  
 - As part of the testing section it may be appropriate to contain a table of tests performed at different stages of the project and a link to any evidence of this.
 - It would also be appropriate for a student to perform more traditional testing of the solution at the end of coding where the robustness and completeness of the solution are tested.
+** When marking your work, I will be checking...
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Does the section demonstrate that thorough testing has been carried out?
+- Have the core requirements been tested?
+- Is there evidence that the more technically challenging parts of the project have been tested?
 
 ** The Marking Scheme
 :PROPERTIES:

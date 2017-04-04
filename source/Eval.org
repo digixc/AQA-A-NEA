@@ -94,7 +94,13 @@
 - see marking scheme below.
 - always aim at the highest level.
 - please pay attention to the independent feedback point and think about how you are going to obtain that, i.e. peer review? target users review?
-
+** When marking your work, I will be checking...
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- have you given consideration as to how well the outcome meets the initial requirement?
+- have you reflected on the objectives originally set and considered how their solution measures up to those objectives?
+- have you obtained independent feedback and reflected upon this?
 ** The Marking Scheme
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn

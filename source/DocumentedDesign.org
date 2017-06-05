@@ -125,8 +125,19 @@
 :END:
 
 [[./img/design.png]]
-Try to organise your writing using the expectations above. The expectations ask you to include the following key areas:
-1. =Packages and framework=: Describe and explain the purpose of any numerical and scientific package libraries, data visualisation package library, particular relational database and/or web design framework will be used.
-2. =Files, Data Structures, Methods of Access=: Design any data structures, files,relational database(fields, tables, data types, validation rules, and table relationships) with their purpose and access methods explained.
-3. =User Interface Design=: Design and justify any user interfaces and their elements.
-4. =Processes=: Include psuedo-code and or flowchart for all processes that will be part of the solution.
+Try to organise your writing using the expectations above. 
+
+1. You should start with a high-level overview how different parts of your system will work. This may be a:
+   + structure / hierarchy chart
+   + a system flowchart
+   + a data flow diagram, or object / class diagrams, accompanied by any further explanation that is helpful
+   + non-standard diagrams that combine elements of data flow and program control flow are acceptable, as long as the two can be clearly distinguished.
+2. Then you should document how the important parts of their system work. Possible items that might be present in design could be:
+   + Algorithms: Processing of data should be at the heart of all projects. Students need to show and explain sample algorithm(s) that their project uses. These could be user-defined or standard algorithms, but should be chosen to demonstrate the sophistication of the system and should be key algorithms that are essential to the success of the project. Pseudo-code, Structured English or any other appropriate methodology could be used.
+   + Data structures: If a project makes use of data structures in memory, these should be explained. Simple structures, such as arrays of records, might only require a short explanation, while a more complex structure, such as a queue, linked list or hash table could be explained in more detail.
+   + File structure and organisation: If a project stores data directly in files, the structure of the records in these files should be described, together with how the records are organised for access and inter-relationships between files.
+   + Database design: If a project stores data in a database, the structure of the tables should be described and an entity-relationship diagram could be used to show how the tables are related.
+   + Queries: If a project uses a database, samples of the queries that are used, together with explanations should be provided. The samples chosen should illustrate the sophistication of the system.
+   + HCI: In almost all cases, it is expected that there will be on-screen interaction between the student's system and the user. A small number of samples of screen / hard copy, with explanations and reasons should be presented. We recognise that most students will design their HCI on screen, using the features of their chosen programming environment. Therefore, evidence of HCI can be presented as explained screenshots rather than hand-drawn or package-drawn plans.
+   + Hardware selection/design: For most projects, students are unlikely to have a choice of hardware to use, so this section will not need to be addressed. However, some projects are more focussed on the use of hardware, such as Arduino boards. For these projects, it would be appropriate to explain the suitability of the hardware and to present, by any appropriate method, information about the design of the hardware or how the hardware is used by the project.
+3. Any other types of evidence that are relevant and useful to your project

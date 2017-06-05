@@ -91,12 +91,10 @@
 :END:
 
 **** =You are expected to=:
-+ produce a clear statement that describes the problem area and specific problem that is being solved/investigated
-+ outline how they researched the problem
-+ state for whom the problem is being solved/investigated
-+ provide background in sufficient detail for a third party to understand the problem being solved/ investigated
-+ produce a numbered list of measurable, "appropriate" specific objectives, covering all required functionality of the solution or areas of investigation (Appropriate means that the specific objectives are single purpose and at a level of detail that is without ambiguity)
-+ report any modelling of the problem that will inform the Design stage, for example a graph/network model of Facebook connections or an E-R model.
++ use a range of appropriate methods and sources to research and investigate the problem, including websites, existing software, books, interviews, questionnaires, prototyping.Relevant and genuine evidence should be presented in the report (most likely in an appendix, but referenced in the main report)
++ Identifying a third party: It will be useful if a third party (that is someone other than the student) is involved in the analysis process. The third party might be a potential end-user of the software, such as a friend, relative, employee or teacher or somebody with knowledge, interest or expertise in the problem area. Their role is to support the student in investigating the problem, deciding upon the objectives and to give feedback, particularly at the end of the project
++ Further research and prototyping to refine the set of objectives
++ Prototyping the critical path at the analysis stage, early in the project development period, is encouraged so that changing objectives later on occurs only in exceptional circumstances, and with the agreement of the teacher. The achievement of the objectives will have an effect on determining the mark awarded for the coding of the project. This refining/adjusting objectives will be cut off by the end of first term.
 
 **** =A fully scoped analysis is one that has=:
 + researched the problem thoroughly
@@ -129,25 +127,13 @@
 :END:
 
 [[./img/analysis.png]]
-Organise and write your Analysis section using the expectations and marking criteria above. The expectations ask you to include the following five key areas:
-1. Problem definition OR Overview OR Broad Aims:
-   + what is your solution intended to do?
-   + How does it work and on what platform?
-   + what is the target audience? 
-   + what it intends to address?
-2. Background: 
-   + what makes you choose this problem?
-3. Give evidence that you have done your research and analysis.
-   + Create a log of activities: research, interview summaries and what you have learned from those activities.
-     + Are there any existing similar problem?
-     + What are the existing solutions can and cannot do and what your solution intends to address those gaps?
-     + What are your target audience survey/interview results?
-     + What justifications do you have for your solution
-     + Research and investigation logs, web links etc?
-4. Objectives:(very important, this is where the examiner gets a sense of complexity and your solution will be measured against)
-   + a list/set of milestones to achieve a working solution. For example: 1. Create a database to permanently store user details, product details and suppliers' details. 2. Create a user interface so that a manager of the store can log on to manage the stock. 3. Create mechanism so that when a particular product numbers reach a limit, it automatically triggers email to a specified stock manager.
-5. Model (E-R diagram)
-   
-   + Entity relationship or data flow diagram or flow chart to show how data will be passed among different components of the intended system, or how different parts of the system will be interacting with each other.
-   + A network graph of the interconnected components if any.
-6. Organise your writing based on the expectations. You can download a copy of the Analysis template [[file:doc/AnalysisTemplate.docx][here]].
+
++ Required documentation for ‘Analysis’: this section of the report should include:
+
+  + a clear statement that describes the problem area and the specific problem being solved / investigated
+  + an outline of how the problem was researched
+  + a statement indicating who the problem is being solved / investigated for
+  + background in sufficient detail for a third party to understand the problem being solved / investigated
+  + a numbered list of measurable, "appropriate" specific objectives, covering all required functionality of the solution or areas of investigation (‘appropriate’ means the specific objectives are single purpose and at a level of detail that is without ambiguity)
+  + any modelling of the problem that will inform the Design stage, for example a graph / network model of Facebook connections or an E-R model, state diagrams, scientific / mathematical models or formulae, data flow diagrams.
++ The setting of well-defined, appropriate objectives is the most important part of the analysis, as these objectives will eventually be used to assess the success of the project and award marks to the solution produced.

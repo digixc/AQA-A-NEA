@@ -125,9 +125,9 @@
 + A table of content of your tests organised by areas of testings. For example, UI testing, Data validation testing, Network connection testing, Two player mode testing etc.
 + Make a title/heading for each testing areas. You may have multiple tests under each. 
 + For those individual tests, specify clearly:
-  + Test scope
+  + Test scope, for example, test login
   + Test data if appropriate
   + Expected result
-  + Actual result
-  + Evidence of test in the form of screenshots
+  + The actual outcome of the test with comments
+  + Evidence of test in the form of screenshots, annotating your evidence as needed to bring attention to the outcome.
   + Any improvement after the test if not as expected

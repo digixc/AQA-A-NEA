@@ -93,6 +93,8 @@
 + You are expected to submit your written work or coding =at the end of each day on the specified dates= for each section by =creating a pull request on guthub=.
 + You =MUST= ensure you have followed the guidelines carefully and you =are indeed confident= that you have =covered all key areas= for that section.
 + You are expected to =spell check= all your written work.
++ I AM NOT allowed to tell you how to improve. I will highlight the marking scheme on your project log.
++ You MUST discuss your project idea with me before starting your critical path.
 
 ** Dates for each section
 :PROPERTIES:
@@ -100,9 +102,9 @@
 :END:
 | section            | Date                |
 |--------------------+---------------------|
-| Analysis           | 20/09/16, Tuesday   |
-| Documented Design  | 14/10/16, Friday    |
-| Technical Solution | 16/12/16, Friday    |
-| Test               | 13/01/17, Friday    |
-| Evaluation         | 18/01/17, Wednesday |
+| Analysis           | 20/09/17, Wednesday |
+| Documented Design  | 13/10/17, Friday    |
+| Technical Solution | 15/12/17, Friday    |
+| Test               | 19/01/18, Friday    |
+| Evaluation         | 26/01/18, Friday    |
 

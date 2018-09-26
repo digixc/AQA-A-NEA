@@ -103,7 +103,7 @@
 | section            | Date                |
 |--------------------+---------------------|
 | Analysis           | 21/09/18, Friday    |
-| Documented Design  | 26/10/18, Friday    |
+| Documented Design  | 28/10/18, Friday    |
 | Technical Solution | 15/02/19, Friday    |
 | Test               | 01/03/19, Friday    |
 | Evaluation         | 15/03/19, Friday    |

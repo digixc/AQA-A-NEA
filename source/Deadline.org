@@ -90,11 +90,11 @@
 :HTML_CONTAINER_CLASS: learn
 :END:
 
-+ You are expected to submit your written work or coding =at the end of each day on the specified dates= for each section by =creating a pull request on guthub=.
++ You MUST discuss your project idea with me before starting your critical path.
++ You are expected to submit your written work or coding =at the end of each day on the specified dates= for each deadline by =creating a pull request on guthub=.
 + You =MUST= ensure you have followed the guidelines AND the marking scheme carefully and you =are indeed confident= that you have =covered all key areas= for that section.
 + You are expected to =spell check= all your written work.
 + I AM NOT allowed to tell you how to improve. I will highlight the marking scheme on your project log.
-+ You MUST discuss your project idea with me before starting your critical path.
 
 ** Dates for each section
 :PROPERTIES:
@@ -102,9 +102,9 @@
 :END:
 | section            | Date                |
 |--------------------+---------------------|
-| Analysis           | 21/09/18, Friday    |
-| Documented Design  | 28/10/18, Friday    |
-| Technical Solution | 15/02/19, Friday    |
-| Test               | 01/03/19, Friday    |
-| Evaluation         | 15/03/19, Friday    |
+| Analysis           | 18/10/19, Friday    |
+| Documented Design  | 20/12/19, Friday    |
+| Technical Solution | 03/04/20, Friday    |
+| Test               | 03/04/20, Friday    |
+| Evaluation         | 03/04/20, Friday    |
 

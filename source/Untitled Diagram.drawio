@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-08T06:57:12.367Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="YU_S6TBpVKy0bsA3qMT5" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-08T07:58:56.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="LIUWYopu0hDfB52qNlSR" version="18.0.2" type="github">
   <diagram id="VssKVn33IEBaUGEUjl4Q" name="Page-1">
     <mxGraphModel dx="1087" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,8 +18,8 @@
         <mxCell id="QHWoOooBrcnur0niMnNS-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=19;" edge="1" parent="1" source="QHWoOooBrcnur0niMnNS-2" target="QHWoOooBrcnur0niMnNS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QHWoOooBrcnur0niMnNS-2" value="Reward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=19;" vertex="1" parent="1">
-          <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="QHWoOooBrcnur0niMnNS-2" value="Reward&amp;nbsp;&lt;br&gt;(based on criteria in the reward function)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="335" y="178" width="150" height="92" as="geometry" />
         </mxCell>
         <mxCell id="QHWoOooBrcnur0niMnNS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=19;" edge="1" parent="1" source="QHWoOooBrcnur0niMnNS-3" target="QHWoOooBrcnur0niMnNS-4">
           <mxGeometry relative="1" as="geometry">
@@ -50,10 +50,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QHWoOooBrcnur0niMnNS-5" value="State&lt;br&gt;(what the car &quot;seeing&quot;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=19;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
-          <mxGeometry x="531" y="200" width="119" height="70" as="geometry" />
+          <mxGeometry x="531" y="189" width="119" height="70" as="geometry" />
         </mxCell>
         <mxCell id="QHWoOooBrcnur0niMnNS-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://jonathanfries.net/content/images/2019/07/deepracer.png;" vertex="1" parent="1">
           <mxGeometry x="350" y="360" width="100.28" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QHWoOooBrcnur0niMnNS-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3-ap-southeast-2.amazonaws.com/techau-images/WP%20Media%20Folder%20-%20techau/wp-content/uploads/2019/04/D4aes5eUUAAuQrh.jpg;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="102.2" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="QHWoOooBrcnur0niMnNS-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/deepracer/latest/developerguide/images/deepracer-Championship_Cup_2019.png;" vertex="1" parent="1">
+          <mxGeometry x="364.05" y="10" width="91.91" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
